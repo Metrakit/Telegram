@@ -22,9 +22,9 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}
      */
-    protected function getAuthUrl($state)
+    protected function getAuthUrl($state = null)
     {
-        return null;
+        return 'https://oauth.telegram.org/auth';
     }
 
     /**
